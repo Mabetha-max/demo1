@@ -6,6 +6,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class Democontroller {
 	@RequestMapping("/aws")
 	public String indexbyjsp() {
-		return "aws";
+		return "page/aws";
 	}
 }
